@@ -17,20 +17,31 @@ Exercice 2 (JS):
     
     
 Rappel des addEventListener(): 
+
     Pour créer un écouteur d'évènement -> addEventListener()
+    
     window.addEventListener('NOM_EVENEMENT', function(e) {
+    
         //écrit ton code ici
+        
         console.log('ici')
+    
     }
 
 - Il est possible d'intégrer une boucle, des variables, ou tout autre éléments dans l'écouteur d'évènement
 
-Rappel des boucles js : 
+Rappel des boucles js :
+
     Pour boucler sur un querySelectorAll -> forEach()
-    example : 
+    
+    example :
+    
     ELEMENTS.forEach(ELEMENT => {
+    
         //écrit ton code ici
+        
         console.log('ici')
+        
     })
 
 - Sers toi de "console.log()" dans ton code pour t'aider à voir ce qu'il se passe dans la console de ton navigateur
@@ -39,4 +50,5 @@ Rappel des boucles js :
 Liens utiles : 
 
 https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+
 https://www.pierre-giraud.com/javascript-apprendre-coder-cours/introduction-asynchrone/
