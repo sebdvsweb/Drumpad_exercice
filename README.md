@@ -14,6 +14,24 @@ Exercice 2 (JS):
     
     Boucler sur les keys récupérés / Pour chaque key SI l'attribut correspond à 
     la touche cliquée -> ajouter la classe "playing". Ajouter un addEventListener pour enlever la classe "playing" quand la transition du son est finie
+    
+    
+Rappel des addEventListener(): 
+    Pour créer un écouteur d'évènement -> addEventListener()
+    window.addEventListener('NOM_EVENEMENT', function(e) {
+        //écrit ton code ici
+        console.log('ici')
+    }
+
+- Il est possible d'intégrer une boucle, des variables, ou tout autre éléments dans l'écouteur d'évènement
+
+Rappel des boucles js : 
+    Pour boucler sur un querySelectorAll -> forEach()
+    example : 
+    ELEMENTS.forEach(ELEMENT => {
+        //écrit ton code ici
+        console.log('ici')
+    })
 
 - Sers toi de "console.log()" dans ton code pour t'aider à voir ce qu'il se passe dans la console de ton navigateur
 
