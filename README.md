@@ -34,7 +34,7 @@ Rappel des boucles js :
 
     Pour boucler sur un querySelectorAll -> forEach()
     
-    example :
+    Exemple :
     
     ELEMENTS.forEach(ELEMENT => {
     
