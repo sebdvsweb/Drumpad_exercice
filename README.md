@@ -2,7 +2,7 @@
 
 Exercice 1 (HTML):
 - Relie les fichiers css et javascript au fichier HTML
-- Complète le code HTML pour que ton affichage ressemble à l'image de l'exercice 
+- Complète le code HTML et CSS pour que ton affichage ressemble à l'image de l'exercice 
 ![image](https://user-images.githubusercontent.com/77976552/191222352-652e649d-9111-463f-b32b-c7e11343325f.png)
 - Ajoute la valeur numérique des touches du clavier dans l'attribut "data-key"
 
