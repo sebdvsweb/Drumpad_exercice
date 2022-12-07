@@ -1,9 +1,9 @@
 /*Complète le code ci-dessous*/
 
-    // Récupère les div qui contiennent les bouton du drumpad
-    const keys = document.querySelectorAll('')
-    // Récupère les balises audio qui contiennt les sons
-    const audios = document.querySelectorAll('')
+    // Récupère les div qui contiennent les bouton du drumpad dans une constante keys avec querySelectior
+
+    // Récupère les balises audio qui contiennt les sons dans une constante audios avec querySelectior
+
 
     //Récupère l'évènement quand une touche est cliquée 
 window.addEventListener('', function(e) {
