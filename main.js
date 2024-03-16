@@ -1,8 +1,8 @@
 /*Complète le code ci-dessous*/
 
-    // Récupère les div qui contiennent les bouton du drumpad dans une constante keys avec querySelectior
+    // Récupérer les div qui contiennent les bouton du drumpad dans une constante keys avec querySelectior
 
-    // Récupère les balises audio qui contiennt les sons dans une constante audios avec querySelectior
+    // Récupérer les balises audio qui contiennt les sons dans une constante audios avec querySelectior
 
 
     //Récupère l'évènement quand une touche est cliquée 
@@ -13,7 +13,9 @@ window.addEventListener('', function(e) {
     // }
     
     audios.forEach(audio => {
-        if (e.keyCode == audio.getAttribute('')) {
+        if (
+            // vérifier si le keyCode de l'argument est égal à l'attribut 'data-key' de l'audio avec la méthode getAttribute()
+            ) { 
             // Décommente la ligne ci-dessous si besoin
             // audio.currentTime = 0;
 
@@ -23,7 +25,8 @@ window.addEventListener('', function(e) {
     })
     
     keys.forEach(key => {
-        if (e.keyCode == key.getAttribute('')) {
+        if ( // vérifier si le keyCode de l'argument est égal à l'attribut 'data-key' de la class 'key' avec la méthode getAttribute()
+           ) {
             // ajoute la classe playing ici
 
             //trouve le bon event à mettre dans le addEventListener ci-dessous
