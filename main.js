@@ -1,8 +1,8 @@
 /*Complète le code ci-dessous*/
 
-    // Récupérer les div qui contiennent les bouton du drumpad dans une constante keys avec querySelectior
+    // Récupérer les div qui contiennent les bouton du drumpad dans une constante keys avec querySelector
 
-    // Récupérer les balises audio qui contiennt les sons dans une constante audios avec querySelectior
+    // Récupérer les balises audio qui contiennt les sons dans une constante audios avec querySelector
 
 
     //Récupère l'évènement quand une touche est cliquée 
