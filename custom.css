@@ -20,10 +20,10 @@ h1 {
 
 /* CONTENEUR DU DRUMPAD */
 /* 
-Utiliser une largeur fixe de 400px, une flexbox (display, justify-content, flex-wrap seront utiles ici) 
+Utiliser une largeur fixe de 400px, une flexbox (les propriétés display, justify-content, flex-wrap et align-items seront utiles ici) 
 */
 /* 
-Ajouter du padding, une couleur de fond, une bordure et pourquoi pas une ombre portée 
+Ajouter du padding, une couleur de fond, une bordure et pourquoi pas une ombre portée avec box-shadow 
 */
 .pad {
 
@@ -31,15 +31,15 @@ Ajouter du padding, une couleur de fond, une bordure et pourquoi pas une ombre p
 
 /* TOUCHE DU DRUMPAD */
 /* 
-Chaque touche sera un carré de 100px L/H 
+Chaque touche sera un carré de 100px - largeur et hauteur 
 */
 /* 
-Centrer les lettres dans leur touche à l'aide des propriétés flex étudiées 
+Centrer les lettres dans leur touche à l'aide des propriétés de flexbox 
 */
 
 .key {
 /*
-Compléter la class key une border pleine noire, une couleur de fond blanche, gérer la police avec font-size, font-weight et color
+Compléter la class key sa border noire, sa couleur de fond blanche, gérer la police avec font-size, font-weight et color
 */
   margin: 10px 0;
   box-shadow: 4px 4px 0 0 black;
